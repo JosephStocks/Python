@@ -14,9 +14,23 @@
 
 # print(complete_string)
 ##############################################
+
+
 # ANOTHER VERSION
 height = int(input("Triangle height? "))
-stars = 1
-for blanks in range(5, 0, -1):
-    print(" " * blanks + "*" * stars)
-    stars += 2
+num_stars = 1
+for num_blanks in range(5, 0, -1):
+    print(" " * num_blanks + "*" * num_stars)
+    num_stars += 2
+
+# VERSION 3 (WITH WHILE LOOP)
+# height = int(input("Triangle height? "))
+# counter = 0
+# num_stars = 1
+# num_blanks = height
+# while counter < height:
+#     print(" " * num_blanks + "*" * num_stars)
+#     num_stars += 2
+#     num_blanks -= 1
+#     counter += 1
+
