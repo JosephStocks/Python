@@ -9,10 +9,54 @@ for element in list1:
         deduplicated_list.append(element)
     old_element = element
 
-# OR
-# Algo 2
+print(deduplicated_list)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+####### ALGO 2
 list1 = ["a", "b", "c", "d", "e", "b"]
-deduplicated_list = list(set(list1))
+deduplicated_list = []
+for element in list1:
+    if element not in deduplicated_list:
+        deduplicated_list.append(element)
 
 # Result
 print(deduplicated_list)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # OR
+# # Algo 2
+# list1 = ["a", "b", "c", "d", "e", "b"]
+# deduplicated_list = list(set(list1))
+
+# # Result
+# print(deduplicated_list)
